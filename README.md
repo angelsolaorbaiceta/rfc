@@ -1,7 +1,7 @@
 # RFC
 
 Read internet RFC documents from your terminal.
-This command line tool fetches RFC documents from _https://datatracker.ietf.org/_ and caches the locally, for faster second time reads.
+This command line tool fetches RFC documents from _https://datatracker.ietf.org/_ and caches them locally, for faster second time reads.
 
 ## Usage
 
