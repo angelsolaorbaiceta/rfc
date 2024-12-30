@@ -18,8 +18,6 @@ func Find(rfcNum int) (string, error) {
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "[WARNING] Can't resolve the cache directory. RFCs won't be cached.\n")
 		useCache = false
-	} else {
-		fmt.Printf("Cache: %s\n\n", cacheDir)
 	}
 
 	if useCache {
